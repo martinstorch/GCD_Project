@@ -91,3 +91,15 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
+
+Instructions to run the script 'run_analysis.R'
+===============================================
+Precondition: install RStudio (Version 0.98.1091) as well as packages data.table and LaF from CRAN
+1. Download the original data set from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+2. Extract the content into a subdirectory "GettingAndCleaningData/CourseProject" of the base working directory of RStudio. This directory should then contain a subdirectory "UCI HAR Dataset"
+3. Run the script run_analysis.R. Execution should take only few seconds.
+4. The two output files "UCI HAR Dataset cleaned.txt" and "Avg_per_activity_subject.txt" should be found in subdirectory "GettingAndCleaningData/CourseProject"
+
+
+
+ 
